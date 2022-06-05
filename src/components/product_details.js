@@ -86,5 +86,4 @@ const Product_details = ({ title ,brand,image, price,alt, stockCode, categories 
   
    );
 };
-*/
-export default Product_details;
+export default Product_details;*/
