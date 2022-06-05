@@ -1,6 +1,6 @@
 
 import { useRouter } from 'next/router';
-import Product_details from "../../src/components/product_details" ;
+/*import Product_details from "../../src/components/product_details" ;*/
 export default function Home() {
 
     const router = useRouter();
