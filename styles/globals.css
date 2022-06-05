@@ -1,0 +1,291 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.head{
+  text-align: center;
+font: inherit;
+  font-size: xx-large; 
+}
+.info{
+margin-left: 5px;
+margin-right: 5px;
+text-align: center;
+
+ 
+}
+.box1 {
+
+  position: relative;
+  margin:0 ;
+  border:0 ;
+  box-sizing: border-box;
+   display: flex;
+   flex-flow:column;
+ width: 250px;
+align-items: flex-end;
+}
+
+
+a{
+color: inherit;
+text-decoration: none;
+background: transparent;
+}
+
+.container {
+background-color: transparent ;
+height: 280px;
+width: 100%;
+position: absolute;
+overflow: scroll;
+justify-content: space-between;
+box-sizing: border-box;
+
+
+}
+
+.afterImage{
+opacity: 0;
+width: 100%;
+overflow: hidden;
+
+transition: 0.5s;
+position: absolute;
+display:  flex;
+justify-content: flex-start;
+cursor: pointer;
+
+}
+.box1:hover .afterImage{
+opacity: 1;
+
+
+}
+
+.container::-webkit-scrollbar {
+-webkit-appearance: none;
+}
+.container::-webkit-scrollbar:vertical {
+width: 0%;
+}
+.container::-webkit-scrollbar:horizontal {
+height: 7px;
+}
+.container::-webkit-scrollbar-thumb {
+border-radius: 2px;
+border: 2px solid white; 
+background-color: rgba(0, 0, 0, .5);
+}
+.container::-webkit-scrollbar-track { 
+background-color: rgba(255, 255, 255, 0.586); 
+border-radius: 8px; 
+} 
+.navbar {
+  height: 200px;
+width: 1600px;
+background-color: transparent;
+padding: 24px;
+margin-right: 24px;
+display: flex;
+align-items: center;
+}
+.discount{
+text-decoration: line-through;
+opacity: 0.5;
+
+}
+.brand{
+opacity: 0.6;
+font-size: small;
+margin-top: 5px;
+margin-bottom: 5px;
+position: relative;
+}
+.product{
+font-family: 'Times New Roman', Times, serif;
+font-size: large;
+
+}
+.price{
+font-size: medium;
+}
+.pic{
+width: 240px;
+}
+
+@media(max-width: 50px){
+
+.col-sl{
+height: 100%;
+
+float: left;
+}
+ /* ///////////////////////////     PRODUCT_DETAİLS       //////////////////////////////////////// */
+ .type{
+  display: flex;
+  grid-gap: 6px;
+  gap: 6px;
+  margin-bottom: 30px;
+  flex-wrap: nowrap;
+}
+.type .type1 {
+  font-size: 14px;
+  display: flex;
+  font-weight: 400;
+}
+.block{
+  width: 90%;
+  display: flex;
+  align-items: flex-start;
+  box-sizing:border-box;
+}
+.images.image{
+  box-sizing: border-box;
+   display: block; 
+   overflow: hidden;
+    width: initial; 
+    height: initial;
+     background: none; 
+     opacity: 1; 
+     border: 0px;
+      margin: 0px; 
+      padding: 0px; 
+      position: relative;
+      inset: 0px;
+}
+.boxes{
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  touch-action: pan-y;
+}
+.boxslide{
+  display: block;
+  flex: 0 0 80px;
+  max-width: 80px;
+  margin-left: 0;
+  margin-right: 20px;
+}
+.boxblock .boxes{
+  position: relative;
+  display:flex
+}
+.boxes .box{
+  position: relative;
+  display: block;
+}
+.box{
+  
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+
+}
+.track{
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.infobox{
+  width: 50%;
+  padding-left: 85px;
+  margin-top: 0;
+}
+.brand{
+  opacity: .6;
+
+  margin-bottom: 6.66667px;
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+.head{
+  word-wrap: break-word;
+  width: 500px;
+  margin: 0 0 10px;
+  line-height: 1;
+  font-size: 42px;
+  margin: 0 0 20px;  
+}
+.icon{
+  box-sizing: border;
+   display: block; 
+   position: absolute;
+}
+.price
+{
+  font-size: 20px;
+  justify-content: flex-start;
+  display: flex;
+}
+.addcart {
+  box-sizing: border-box;
+  
+  letter-spacing: .15em;
+  font-size: 16px;
+  padding: 11px 20px;
+  margin: 0;   
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 0;
+  color: #fff;
+  background: #000;
+  width: 100%;
+
+}
+.product_code  {
+  opacity: 0.5;
+font-size: 16px;
+}
+
+.img-magnifier-glass {
+position: absolute;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 1%;
+cursor: none;
+width: 140px;
+height: 140px;
+}
+.flex{
+  display: flex;
+}
+.heart{
+   
+   position: relative;
+   height: 0px;
+   width: 80px;
+   flex: 35px 0;
+
+}
+.product_ori{
+  display: flex;
+  color: #484747;
+  font-size: 24px;
+  margin-left: 42px; 
+  text-align: left;
+}
+.cart{
+  display: flex;
+  color: #484747;
+  font-size: 24px;
+  margin-left: 42px;
+   text-align: left;
+}
+}
