@@ -7,7 +7,7 @@ export default function Home() {
 ;  return (
     <div>
   
-            <Product_details id={id} />
+           /* <Product_details id={id} />*/
             </div>
  
 
