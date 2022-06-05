@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import data from '../src/data.json'
 import Product from '../src/components/product';
-/*import Product_details from '../src/components/product_details';*/
+
 
 export default function Home() {
  console.log(data);
